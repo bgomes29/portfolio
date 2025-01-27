@@ -52,6 +52,18 @@ p {
   text-align: center;
 }
 
+.demo {
+color: #fff;
+  font-size: 20px;
+  font-family: Poppins;
+}
+
+.button {
+color: #ccccff;
+  height: 24px;
+  width: 52px;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
