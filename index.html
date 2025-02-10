@@ -10,6 +10,9 @@
     <title>My Story</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/x-icon"
@@ -24,12 +27,12 @@
       </div>
     </header>
     <main class="content">
-
+      <div class="snoot">
     <p id="demo">Click for snoot.</p>
-<button type="button" onclick="myFunction()">snoot</button>
-      
-      <div class="card">
-        <img src="./images/art card.jpg" 
+<button type="button" class="snoot_button" onclick="myFunction()">snoot</button>
+      </div>
+     <div class="card">
+        <img src="./images/art_card.jpg" 
         alt="painting cups with paints and brush" 
         class="card__image"
         />
@@ -40,7 +43,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./images/travel card.jpg" 
+        <img src="./images/travel_card.jpg" 
         alt="Map on table with camera, field notes journal, travel bag and travel guides" 
         class="card__image"
         />
@@ -51,7 +54,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./images/poetry card.jpg" 
+        <img src="./images/poetry_card.jpg" 
         alt="Paper and calligraphy pen with purple flowers on the left" 
         class="card__image"
         />
@@ -62,7 +65,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="./images/baking card.jpg" 
+        <img src="./images/baking_card.jpg" 
         alt="cookies on table with flour and eggshells in tray" 
         class="card__image"
         />
@@ -71,42 +74,7 @@
           <p class="card__text">Baking a treat from scratch is a favorite pasttime of mine and one of my favorite stress-relieving activities.</p>
         </div>
       </div>
-      <div class="form-container">
-      <form class="form">
-        <h1 class="form__title">Log in</h1>
-        <fieldset class="form__fieldset">
-          <label for="username" class="form__label">Username</label>
-          <input
-            type="text"
-            class="form__input"
-            id="username"
-            name="username"
-            placeholder="Type your username"
-          />
-          <label for="password" class="form__label">Password</label>
-          <input
-            type="password"
-            class="form__input"
-            id="password"
-            name="password"
-            placeholder="Type your password"
-          />
-        </fieldset>
-        <fieldset class="form__fieldset">
-          <input
-            type="checkbox"
-            class="form__input form__input-checkbox"
-            name="remember-me"
-            id="remember-me"
-          />
-          <label for="remember-me" class="form__label">Remember me</label>
-        </fieldset>
-        <fieldset class="form__fieldset">
-          <button type="submit" class="form__button">Log in</button>
-          <button type="reset" class="form__button">Reset</button>
-        </fieldset>
-      </form>
-    </div>
+     
     </main>
     <footer class="footer">
       <p class="footer__author">Bless Maria Gomes &#169;</p>
